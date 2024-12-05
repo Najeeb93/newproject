@@ -1,5 +1,5 @@
 import { StyleSheet, View, Text } from "react-native";
-import React from "react";
+import React, { useState } from "react";
 
 //Form Validation
 import * as Yup from 'yup'
@@ -13,6 +13,8 @@ const passwordSchema = Yup.object().shape({
 
 
 export default function App() {
+
+  const [password, setPassword] = useState('')
   return (
     <View>
       <Text>App</Text>
