@@ -15,6 +15,7 @@ const passwordSchema = Yup.object().shape({
 export default function App() {
 
   const [password, setPassword] = useState('')
+  const [isPassGenerated, setIsPasswGenerated] = useState(false)
   return (
     <View>
       <Text>App</Text>
