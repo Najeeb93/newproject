@@ -16,6 +16,9 @@ export default function App() {
 
   const [password, setPassword] = useState('')
   const [isPassGenerated, setIsPasswGenerated] = useState(false)
+
+  const [lowerCase, setLowerCase] = useState(true)
+  const [upperCase, setUpperCase] = useState(false)
   return (
     <View>
       <Text>App</Text>
