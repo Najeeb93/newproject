@@ -1,4 +1,4 @@
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, ScrollView, SafeAreaView } from "react-native";
 import React, { useState } from "react";
 
 //Form Validation
@@ -67,9 +67,13 @@ export default function App() {
     setSymbols(false)
   }
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <ScrollView keyboardShouldPersistTaps='handled'>
+      <SafeAreaView style={styles.appContainer}>
+        <View style={styles.formContainer}>
+          
+        </View>
+      </SafeAreaView>
+    </ScrollView>
   )
 }
 
