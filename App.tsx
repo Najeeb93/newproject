@@ -36,6 +36,12 @@ export default function App() {
     if(lowerCase) {
       characterList += lowerCase
     }
+    if(numbers) {
+      characterList += numbers
+    }
+    if(symbols) {
+      characterList += symbols
+    }
   }
 
   const createPassword = (characters: string, passwordLength: number) => {
