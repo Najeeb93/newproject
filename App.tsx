@@ -26,6 +26,9 @@ export default function App() {
     let characterList = '';
 
     const upperCaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    const lowerCaseChars = 'abcdefghijklmnopqrstuvwxyz';
+    const digitChars = '0123456789';
+    const specialChars = '!@#$%^&*()_+';
   }
 
   const createPassword = (characters: string, passwordLength: number) => {
