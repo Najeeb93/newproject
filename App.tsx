@@ -19,6 +19,8 @@ export default function App() {
 
   const [lowerCase, setLowerCase] = useState(true)
   const [upperCase, setUpperCase] = useState(false)
+  const [numbers, setNumbers] = useState(false)
+  const [symbols, setSymbols] = useState(false)
   return (
     <View>
       <Text>App</Text>
