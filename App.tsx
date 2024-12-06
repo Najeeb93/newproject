@@ -21,6 +21,10 @@ export default function App() {
   const [upperCase, setUpperCase] = useState(false)
   const [numbers, setNumbers] = useState(false)
   const [symbols, setSymbols] = useState(false)
+
+  const generatePasswordString =(passwordLength: number) => {
+    
+  }
   return (
     <View>
       <Text>App</Text>
