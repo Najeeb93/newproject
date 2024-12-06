@@ -44,6 +44,9 @@ export default function App() {
     }
 
     const passwordResult = createPassword(characterList, passwordLength)
+
+    setPassword(passwordResult)
+    setIsPasswGenerated(true)
   }
 
   const createPassword = (characters: string, passwordLength: number) => {
