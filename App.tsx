@@ -42,6 +42,8 @@ export default function App() {
     if(symbols) {
       characterList += symbols
     }
+
+    const passwordResult = createPassword(characterList, passwordLength)
   }
 
   const createPassword = (characters: string, passwordLength: number) => {
