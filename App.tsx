@@ -57,6 +57,15 @@ export default function App() {
     }
     return result
   }
+
+  const resetPasswordState = () => {
+    setPassword('')
+    setIsPasswGenerated(false)
+    setLowerCase(true)
+    setUpperCase(false)
+    setNumbers(false)
+    setSymbols(false)
+  }
   return (
     <View>
       <Text>App</Text>
