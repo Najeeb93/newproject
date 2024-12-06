@@ -23,7 +23,9 @@ export default function App() {
   const [symbols, setSymbols] = useState(false)
 
   const generatePasswordString =(passwordLength: number) => {
+    let characterList = '';
 
+    const upperCaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   }
 
   const createPassword = (characters: string, passwordLength: number) => {
