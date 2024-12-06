@@ -23,6 +23,10 @@ export default function App() {
   const [symbols, setSymbols] = useState(false)
 
   const generatePasswordString =(passwordLength: number) => {
+
+  }
+
+  const createPassword = (characters: string, passwordLength: number) => {
     
   }
   return (
