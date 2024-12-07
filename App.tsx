@@ -92,6 +92,7 @@ export default function App() {
          <>
          <View style={styles.inputWrapper}>
           <View style={styles.inputColumn}>
+            <Text style={styles.heading}>Password Length</Text>
             <TextInput
             style={styles.inputStyle}
             value={values.passwordLength}
