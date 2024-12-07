@@ -119,7 +119,15 @@ export default function App() {
           fillColor="#29AB87"
           />
          </View>
-         <View style={styles.inputWrapper}></View>
+         <View style={styles.inputWrapper}>
+          <Text style={styles.heading}>Include uppercase letters</Text>
+          <BouncyCheckbox 
+          disableBuiltState
+          isChecked={upperCase}
+          onPress={() => setUpperCase(!upperCase)}
+          fillColor="#FED85D"
+          />
+         </View>
          <View style={styles.inputWrapper}></View>
 
          <View style={styles.formActions}>
