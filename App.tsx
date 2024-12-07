@@ -1,4 +1,4 @@
-import { StyleSheet, View, Text, ScrollView, SafeAreaView, TouchableOpacity } from "react-native";
+import { StyleSheet, View, Text, ScrollView, SafeAreaView, TouchableOpacity, TextInput } from "react-native";
 import React, { useState } from "react";
 import { Formik } from 'formik';
 
@@ -91,7 +91,13 @@ export default function App() {
        }) => (
          <>
          <View style={styles.inputWrapper}>
-          <View style={styles.inputColumn}></View>
+          <View style={styles.inputColumn}>
+            <TextInput
+            style={styles.inputStyle}
+            value={values.passwordLength}
+            onChangeText={handleChange('passwordLength')} 
+            />
+          </View>
          </View>
          <View style={styles.inputWrapper}></View>
          <View style={styles.inputWrapper}></View>
