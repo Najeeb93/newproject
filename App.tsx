@@ -95,7 +95,9 @@ export default function App() {
             <TextInput
             style={styles.inputStyle}
             value={values.passwordLength}
-            onChangeText={handleChange('passwordLength')} 
+            onChangeText={handleChange('passwordLength')}
+            placeholder="Ex. 8"
+            keyboardType="numeric" 
             />
           </View>
          </View>
@@ -105,8 +107,12 @@ export default function App() {
          <View style={styles.inputWrapper}></View>
 
          <View style={styles.formActions}>
-          <TouchableOpacity>Generate Password</TouchableOpacity>
-          <TouchableOpacity>Reset</TouchableOpacity>
+          <TouchableOpacity>
+            <Text>Generate Password</Text>
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Text>Reset</Text>
+          </TouchableOpacity>
          </View>
          </>
        )}
