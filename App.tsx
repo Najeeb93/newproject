@@ -98,17 +98,20 @@ export default function App() {
                 {errors.passwordLength}
               </Text>
             )}
-            <TextInput
+           
+            
+          </View>
+          <TextInput
             style={styles.inputStyle}
             value={values.passwordLength}
             onChangeText={handleChange('passwordLength')}
             placeholder="Ex. 8"
-            keyboardType="numeric" 
-            />
-          </View>
+            keyboardType="numeric" />
          </View>
          <View style={styles.inputWrapper}></View>
-         <View style={styles.inputWrapper}></View>
+         <View style={styles.inputWrapper}>
+          <Text></Text>
+         </View>
          <View style={styles.inputWrapper}></View>
          <View style={styles.inputWrapper}></View>
 
