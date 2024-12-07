@@ -90,7 +90,7 @@ export default function App() {
          /* and other goodies */
        }) => (
          <>
-         <View></View>
+         <View style={styles.inputWrapper}></View>
          </>
        )}
      </Formik>
