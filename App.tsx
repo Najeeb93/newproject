@@ -93,6 +93,11 @@ export default function App() {
          <View style={styles.inputWrapper}>
           <View style={styles.inputColumn}>
             <Text style={styles.heading}>Password Length</Text>
+            {touched.passwordLength && errors.passwordLength && (
+              <Text style={styles.errorText}>
+                {errors.passwordLength}
+              </Text>
+            )}
             <TextInput
             style={styles.inputStyle}
             value={values.passwordLength}
