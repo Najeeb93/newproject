@@ -91,6 +91,10 @@ export default function App() {
        }) => (
          <>
          <View style={styles.inputWrapper}></View>
+         <View style={styles.inputWrapper}></View>
+         <View style={styles.inputWrapper}></View>
+         <View style={styles.inputWrapper}></View>
+         <View style={styles.inputWrapper}></View>
          </>
        )}
      </Formik>
