@@ -90,7 +90,9 @@ export default function App() {
          /* and other goodies */
        }) => (
          <>
-         <View style={styles.inputWrapper}></View>
+         <View style={styles.inputWrapper}>
+          <View style={styles.inputColumn}></View>
+         </View>
          <View style={styles.inputWrapper}></View>
          <View style={styles.inputWrapper}></View>
          <View style={styles.inputWrapper}></View>
@@ -98,7 +100,7 @@ export default function App() {
 
          <View style={styles.formActions}>
           <TouchableOpacity>Generate Password</TouchableOpacity>
-          <TouchableOpacity></TouchableOpacity>
+          <TouchableOpacity>Reset</TouchableOpacity>
          </View>
          </>
        )}
