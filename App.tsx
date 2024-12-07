@@ -112,7 +112,12 @@ export default function App() {
          <View style={styles.inputWrapper}></View>
          <View style={styles.inputWrapper}>
           <Text style={styles.heading}>Include lowercase </Text>
-          <BouncyCheckbox></BouncyCheckbox>
+          <BouncyCheckbox
+          disableBuiltInState 
+          isChecked={lowerCase}
+          onPress={() => setLowerCase(!lowerCase)}
+          fillColor="#29AB87"
+          />
          </View>
          <View style={styles.inputWrapper}></View>
          <View style={styles.inputWrapper}></View>
