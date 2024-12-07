@@ -1,6 +1,7 @@
 import { StyleSheet, View, Text, ScrollView, SafeAreaView, TouchableOpacity, TextInput } from "react-native";
 import React, { useState } from "react";
 import { Formik } from 'formik';
+import BouncyCheckbox from "react-native-bouncy-checkbox";
 
 //Form Validation
 import * as Yup from 'yup'
@@ -110,7 +111,8 @@ export default function App() {
          </View>
          <View style={styles.inputWrapper}></View>
          <View style={styles.inputWrapper}>
-          <Text></Text>
+          <Text style={styles.heading}>Include lowercase </Text>
+          <BouncyCheckbox></BouncyCheckbox>
          </View>
          <View style={styles.inputWrapper}></View>
          <View style={styles.inputWrapper}></View>
