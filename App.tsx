@@ -139,6 +139,12 @@ export default function App() {
          </View>
          <View style={styles.inputWrapper}>
           <Text style={styles.heading}>Include Symbols</Text>
+          <BouncyCheckbox 
+          disableBuiltInState
+          isChecked={symbols}
+          onPress={() => setSymbols(!symbols)}
+          fillColor="#FC80A5"
+          />
          </View>
 
          <View style={styles.formActions}>
