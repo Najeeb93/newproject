@@ -222,4 +222,12 @@ const styles = StyleSheet.create({
     borderRadius: 4,
     borderColor: '#16213e',
   },
+  errorText: {
+    fontSize: 12,
+    color: '#ff0d10',
+  },
+  formActions: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+  },
 })
