@@ -244,5 +244,29 @@ const styles = StyleSheet.create({
     marginHorizontal: 8,
     backgroundColor: '#CAD5E2',
   },
-  secondaryBtnTxt: {}
+  secondaryBtnTxt: {
+    textAlign: 'center',
+  },
+  card: {
+    padding: 12,
+    borderRadius: 6,
+    marginHorizontal: 12,
+  },
+  cardElevated: {
+    backgroundColor: '#fffff',
+    elevation: 1,
+    shadowOffset: {
+      width: 1,
+      height: 1,
+    },
+    shadowColor: '#333',
+    shadowOpacity: 0.2,
+    shadowRadius: 2,
+  },
+  generatedPassword: {
+    fontSize: 22,
+    textAlign: 'center',
+    marginBottom: 12,
+    color: '#000'
+  },
 })
