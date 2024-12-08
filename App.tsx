@@ -169,7 +169,7 @@ export default function App() {
        )}
      </Formik>
         </View>
-        {isPasswordGenerated ? (
+        {isPassGenerated ? (
           <View  style={[styles.card, styles.cardElevated]}> 
              <Text style={styles.subTitle}>Result:</Text>
              <Text  style={styles.description}>Long Press to copy</Text>
@@ -181,4 +181,12 @@ export default function App() {
   )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  appContainer: {
+    flex: 1,
+  },
+  formContainer: {
+    margin: 8,
+    padding: 8,
+  }
+})
