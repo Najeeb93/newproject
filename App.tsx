@@ -109,7 +109,7 @@ export default function App() {
             placeholder="Ex. 8"
             keyboardType="numeric" />
          </View>
-         <View style={styles.inputWrapper}></View>
+         
          <View style={styles.inputWrapper}>
           <Text style={styles.heading}>Include lowercase </Text>
           <BouncyCheckbox
@@ -136,6 +136,9 @@ export default function App() {
           onPress={() => setNumbers(!numbers)}
             fillColor="#C9A0DC"
           />
+         </View>
+         <View style={styles.inputWrapper}>
+          <Text style={styles.heading}>Include Symbols</Text>
          </View>
 
          <View style={styles.formActions}>
