@@ -162,13 +162,20 @@ export default function App() {
             resetPasswordState()
           }}
           >
-            <Text>Reset</Text>
+            <Text style={styles.secondaryBtnTxt}>Reset</Text>
           </TouchableOpacity>
          </View>
          </>
        )}
      </Formik>
         </View>
+        {isPasswordGenerated ? (
+          <View  style={[styles.card, styles.cardElevated]}> 
+             <Text>test</Text>
+             <Text  style={styles.description}>Long Press to copy</Text>
+             <Text selectable={true} style={styles.generatedPassword}>{password}</Text>
+          </View>
+        ) : null}
       </SafeAreaView>
     </ScrollView>
   )
