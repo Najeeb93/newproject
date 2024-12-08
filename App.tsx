@@ -128,7 +128,15 @@ export default function App() {
           fillColor="#FED85D"
           />
          </View>
-         <View style={styles.inputWrapper}></View>
+         <View style={styles.inputWrapper}>
+          <Text style={styles.heading}>Include Numbers</Text>
+          <BouncyCheckbox
+          disableBuiltInState
+          isChecked={numbers}
+          onPress={() => setNumbers(!numbers)}
+            fillColor="#C9A0DC"
+          />
+         </View>
 
          <View style={styles.formActions}>
           <TouchableOpacity>
