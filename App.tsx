@@ -188,5 +188,23 @@ const styles = StyleSheet.create({
   formContainer: {
     margin: 8,
     padding: 8,
-  }
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: '600',
+    marginBottom: 15,
+  },
+  subTitle: {
+    fontSize: 26,
+    fontWeight: '600',
+    marginBottom: 8,
+  },
+  description: {
+    color: '#758283',
+    marginBottom: 8,
+  },
+  heading: {
+    fontSize: 15,
+  },
+  
 })
