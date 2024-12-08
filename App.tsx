@@ -230,4 +230,19 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
   },
+  primaryBtn: {
+    width: 120,
+    padding: 10,
+    borderRadius: 8,
+    marginHorizontal: 8,
+    backgroundColor: '#5DA3FA',
+  },
+  secondaryBtn: {
+    width: 120,
+    padding: 10,
+    borderRadius: 8,
+    marginHorizontal: 8,
+    backgroundColor: '#CAD5E2',
+  },
+  secondaryBtnTxt: {}
 })
