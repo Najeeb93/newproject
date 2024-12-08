@@ -153,9 +153,15 @@ export default function App() {
           style={styles.primaryBtn}
           onPress={handleSubmit}
           >
-            <Text >Generate Password</Text>
+            <Text style={styles.primaryBtnTxt}>Generate Password</Text>
           </TouchableOpacity>
-          <TouchableOpacity>
+          <TouchableOpacity
+          style={styles.secondaryBtn}
+          onPress={ () => {
+            handleReset();
+            resetPasswordState()
+          }}
+          >
             <Text>Reset</Text>
           </TouchableOpacity>
          </View>
