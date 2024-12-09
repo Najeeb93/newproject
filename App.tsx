@@ -113,7 +113,7 @@ export default function App() {
          <View style={styles.inputWrapper}>
           <Text style={styles.heading}>Include lowercase </Text>
           <BouncyCheckbox
-          disableBuiltInState 
+         
           isChecked={lowerCase}
           onPress={() => setLowerCase(!lowerCase)}
           fillColor="#29AB87"
@@ -122,7 +122,7 @@ export default function App() {
          <View style={styles.inputWrapper}>
           <Text style={styles.heading}>Include uppercase letters</Text>
           <BouncyCheckbox 
-          disableBuiltState
+         
           isChecked={upperCase}
           onPress={() => setUpperCase(!upperCase)}
           fillColor="#FED85D"
@@ -131,7 +131,7 @@ export default function App() {
          <View style={styles.inputWrapper}>
           <Text style={styles.heading}>Include Numbers</Text>
           <BouncyCheckbox
-          disableBuiltInState
+          
           isChecked={numbers}
           onPress={() => setNumbers(!numbers)}
             fillColor="#C9A0DC"
@@ -140,7 +140,7 @@ export default function App() {
          <View style={styles.inputWrapper}>
           <Text style={styles.heading}>Include Symbols</Text>
           <BouncyCheckbox 
-          disableBuiltInState
+        
           isChecked={symbols}
           onPress={() => setSymbols(!symbols)}
           fillColor="#FC80A5"
@@ -151,8 +151,7 @@ export default function App() {
           <TouchableOpacity
           disabled={!isValid}
           style={styles.primaryBtn}
-          onPress={handleSubmit}
-          >
+          onPress={handleSubmit}>
             <Text style={styles.primaryBtnTxt}>Generate Password</Text>
           </TouchableOpacity>
           <TouchableOpacity
