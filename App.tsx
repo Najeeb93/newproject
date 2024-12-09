@@ -204,10 +204,10 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   heading: {
-    fontSize: 15,
+    fontSize: 20,
   },
   inputWrapper: {
-    marginBottom: 15,
+    marginBottom: 30,
     alignItems: 'center',
     justifyContent: 'space-between',
     flexDirection: 'row',
