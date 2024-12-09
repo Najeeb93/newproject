@@ -269,4 +269,9 @@ const styles = StyleSheet.create({
     marginBottom: 12,
     color: '#000'
   },
+  primaryBtnTxt: {
+    color: '#fff',
+    textAlign: 'center',
+    fontWeight: '700',
+  },
 })
